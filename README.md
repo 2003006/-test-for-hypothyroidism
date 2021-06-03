@@ -6,16 +6,16 @@ Build a model that determines whether or not the patient's symptoms indicate tha
 
 # Part 1: 
 ## Decision trees:
-- For this section, you should build a model that makes the above prediction. You should not use individual decision trees, rather you should use at least 2 out of the 3 advanced models we have studied: Random forests, Ada boosted trees, and gradient boosted trees.
+- For this section, you should build a model that makes the above prediction. Use at least 2 out of the 3 advanced models we have studied: Random forests, Ada boosted trees, and gradient boosted trees.
 - Try and optimize each of the 2 models, making sure to document how you've set up your hyperparameters.
-- Identify which of the 2 models you trust most, and use your model to determine which features are most impactful in influencing the prediction
-- Note that with decision trees, you don't need to do a lot of data cleaning. This will be very different with SVM.
+- Identify which of the 2 models prefered, and use your model to determine which features are most impactful in influencing the prediction
+
 
 # Part 2:
 ## SVM:
 
 
-- Apply Polynomial, linear and rbf kernel function to build your SVM model and then evaluate their performance and pick the kernel that performs the best. Remember to tune your parameters to improve the performance of your model. To make your life easier, make sure to visualize the models you've created. Use any two features to build the models for this step.
+- Apply Polynomial, linear and rbf kernel function to build your SVM model and then evaluate their performance and pick the kernel that performs the best. Tune your parameters to improve the performance of your model. To make your life easier, make sure to visualize the models you've created. Use any two features to build the models for this step.
 
 Hint: You may want to use decision trees to give you the most preferable features you can use. but also keep in mind that those features might not be suitable for SVM. It might be a good idea to graph them first.
 
